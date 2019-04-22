@@ -8,7 +8,7 @@ const text = {
   date: new Date()
 };
 
-function Footer(props) {
+function date(props) {
   return (
     <div>
       <div className="text">{formatDate(props.date)}</div>
@@ -16,4 +16,4 @@ function Footer(props) {
   );
 }
 
-export default Footer;
+export default date;
